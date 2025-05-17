@@ -1,0 +1,156 @@
+#Chr	rsid	slim_pos	genome_pos	ref	alt	geneinfo
+2	rs1049500	1000	10498418	G	A	ODC1|synonymous|Ornithine decarboxylase-1|{Colonic adenoma recurrence, reduced risk of}, 114500 (3)
+2	rs28362397	7042	10502090	G	A	?|?|?|?
+2	rs41281479	9056	24144827	G	A	?|?|?|?
+2	rs13390228	13084	27331735	A	G	SLC30A3|synonymous|Solute carrier family 30 (zinc transporter), member 3|
+2	rs58106741	17112	27740324	G	T	?|?|?|?
+2	rs9678851	19126	27740538	C	A	SLC4A1AP|nonsynonymous|Solute carrier family 4 (anion exchanger), member 1, adaptor protein|
+2	rs9679004	21140	27740664	C	T	SLC4A1AP|nonsynonymous|Solute carrier family 4 (anion exchanger), member 1, adaptor protein|
+2	rs2302652	25168	37433441	C	T	QPCT|synonymous|Glutaminyl-peptide cyclotransferase|
+2	rs2255991	27182	37433475	C	T	?|?|?|?
+2	rs4670696	31210	37453467	A	C	QPCT|nonsynonymous|Glutaminyl-peptide cyclotransferase|
+2	rs2305243	33224	38390130	T	G	ATL2|synonymous|ADP-ribosylation-like factor 6-interacting protein 2 (atlastin 2)|
+2	rs61754249	35238	38390131	C	T	LRP3|nonsynonymous|Low density lipoprotein receptor related protein 3|
+2	rs34873284	37252	38391083	T	C	ATL2|nonsynonymous|ADP-ribosylation-like factor 6-interacting protein 2 (atlastin 2)|
+2	rs3731847	39266	38457855	A	G	ATL2|nonsynonymous|ADP-ribosylation-like factor 6-interacting protein 2 (atlastin 2)|
+2	rs6741892	43294	38770474	A	T	GALM|nonsynonymous|?|?
+2	rs6166	47322	49043425	C	T	FSHR|nonsynonymous|Follicle stimulating hormone receptor|Ovarian dysgenesis 1, 233300 (3); Ovarian response to FSH stimulation, 276400 (3); Ovarian hyperstimulation syndrome, 608115 (3)
+2	rs6165	49336	49044545	C	T	FSHR|nonsynonymous|Follicle stimulating hormone receptor|Ovarian dysgenesis 1, 233300 (3); Ovarian response to FSH stimulation, 276400 (3); Ovarian hyperstimulation syndrome, 608115 (3)
+2	rs7569946	55378	60541463	A	G	BCL11A|synonymous|B-cell CLL/lymphoma 11A|
+2	rs61749494	61420	60542945	T	C	?|?|?|?
+2	rs61748090	63434	60543026	G	A	BCL11A|synonymous|B-cell CLL/lymphoma 11A|
+2	rs7558708	73504	73372375	G	A	EGR4|synonymous|Early growth response-4|
+2	rs4851287	77532	100282204	A	G	LONRF2|nonsynonymous|?|?
+2	rs2033748	79546	100282738	A	G	LONRF2|synonymous|?|?
+2	rs11123823	81560	100282747	A	G	LONRF2|synonymous|?|?
+2	rs13006224	83574	100283541	C	T	LONRF2|synonymous|?|?
+2	rs887987	89616	102797836	T	C	TMEM182|nonsynonymous|?|?
+2	rs724710	91630	111624162	T	C	BCL2L11|synonymous|BCL2-like 11|
+2	rs419598	93644	113603678	T	C	IL1RN|synonymous|Interleukin-1 receptor antagonist|{Gastric cancer risk after H. pylori infection}, 137215 (3); {Microvascular complications of diabetes 4}, 612628 (3); Interleukin 1 receptor antagonist deficiency, 612852 (3)
+2	rs315952	95658	113606775	T	C	IL1RN|synonymous|Interleukin-1 receptor antagonist|{Gastric cancer risk after H. pylori infection}, 137215 (3); {Microvascular complications of diabetes 4}, 612628 (3); Interleukin 1 receptor antagonist deficiency, 612852 (3)
+2	rs11684353	97672	120154985	G	C	TMEM177|nonsynonymous|?|?
+2	rs13011768	99686	120154993	A	G	TMEM177|nonsynonymous|?|?
+2	rs939777	101700	120155166	A	G	TMEM177|synonymous|?|?
+2	rs61730482	107742	120155752	C	T	TMEM177|prematureStop|?|?
+2	rs2305165	113784	136126044	A	C	R3HDM1|nonsynonymous|?|?
+2	rs3731958	115798	144616029	C	A	GTDC1|nonsynonymous|Glycosyltransferase-like domain containing 1|
+2	rs34995577	117812	148937797	G	A	?|?|?|?
+2	rs2116665	133924	157114495	G	A	GPD2|nonsynonymous|Glycerol-3-phosphate dehydrogenase 2 (mitochondrial)|{Diabetes, type 2, susceptibility to}, 125853 (3)
+2	rs17266469	137952	157134218	G	A	GPD2|synonymous|Glycerol-3-phosphate dehydrogenase 2 (mitochondrial)|{Diabetes, type 2, susceptibility to}, 125853 (3)
+2	rs7594480	139966	158098714	T	C	ACVR1C|nonsynonymous|Activin A receptor, type IC|
+2	rs55920843	141980	158120947	T	G	ACVR1C|nonsynonymous|Activin A receptor, type IC|
+2	rs4556933	146008	158152135	G	A	ACVR1C|synonymous|Activin A receptor, type IC|
+2	rs34034503	148022	160369856	C	G	?|?|?|?
+2	rs35941588	150036	160381765	G	A	LY75|nonsynonymous|?|?
+2	rs2059696	152050	160381772	A	G	LY75|nonsynonymous|?|?
+2	rs17827158	154064	160384596	T	C	LY75|nonsynonymous|?|?
+2	rs12692566	156078	160384673	C	A	LY75|nonsynonymous|?|?
+2	rs12468507	162120	160400328	G	A	LY75|synonymous|?|?
+2	rs34702313	164134	160405551	C	A	LY75|nonsynonymous|?|?
+2	rs36090480	166148	160405693	C	T	?|?|?|?
+2	rs34442850	170176	160418031	G	A	LY75|synonymous|?|?
+2	rs3815875	172190	160418399	T	G	?|?|?|?
+2	rs2729705	174204	160419168	T	C	LY75|synonymous|?|?
+2	rs3951216	176218	160419291	G	C	LY75|nonsynonymous|?|?
+2	rs1397706	182260	160437251	C	T	LY75|nonsynonymous|?|?
+2	rs11675155	184274	160445867	C	T	LY75|synonymous|?|?
+2	rs16822581	188302	160446923	G	A	LY75|synonymous|?|?
+2	rs2271381	190316	160451286	T	A	LY75|nonsynonymous|?|?
+2	rs34592866	192330	160455046	T	C	LY75|synonymous|?|?
+2	rs41264217	194344	160463782	C	T	LY75|synonymous|?|?
+2	rs1430	196358	160882939	C	T	RBMS1|synonymous|?|?
+2	rs34753364	198372	170170820	T	A	PPIG|synonymous|Peptidyl-prolyl isomerase G (cyclophilin G)|
+2	rs1050354	202400	170201349	T	A	PPIG|nonsynonymous|Peptidyl-prolyl isomerase G (cyclophilin G)|
+2	rs8207	204414	170202109	A	G	PPIG|nonsynonymous|Peptidyl-prolyl isomerase G (cyclophilin G)|
+2	rs8192556	208442	182251243	G	T	?|?|?|?
+2	rs1801262	210456	182251700	T	C	NEUROD1|nonsynonymous|Neurogenic differentiation 1|{Diabetes mellitus, noninsulin-dependent}, 125853 (3); Maturity-onset diabetes of the young 6, 606394 (3)
+2	rs6737615	212470	190028328	C	A	WDR75|synonymous|?|?
+2	rs1157910	214484	190031775	A	G	WDR75|synonymous|?|?
+2	rs13429203	216498	190038118	A	G	WDR75|synonymous|?|?
+2	rs4853574	222540	191869084	A	T	MYO1B|synonymous|Myosin IB|
+2	rs4853575	224554	191869120	C	T	MYO1B|synonymous|Myosin IB|
+2	rs13018796	226568	191958971	G	A	MYO1B|synonymous|Myosin IB|
+2	rs10183463	228582	191960323	G	A	MYO1B|synonymous|Myosin IB|
+2	rs2271767	230596	191987572	T	C	MYO1B|synonymous|Myosin IB|
+2	rs34841326	232610	192409546	G	T	SDPR|nonsynonymous|Serum deprivation response phosphatidylserine-binding protein|
+2	rs10167187	234624	192409638	A	G	SDPR|synonymous|Serum deprivation response phosphatidylserine-binding protein|
+2	rs61735649	236638	192409652	G	C	?|?|?|?
+2	rs35883486	238652	192419630	G	A	SDPR|synonymous|Serum deprivation response phosphatidylserine-binding protein|
+2	rs61735648	240666	192419687	G	A	?|?|?|?
+2	rs2118548	242680	200536771	T	A	?|?|?|?
+2	rs3900115	246708	201758922	A	G	CASP10|synonymous|Caspase 10, apoptosis-related cysteine protease|Autoimmune lymphoproliferative syndrome, type II, 603909 (3); Non-Hodgkin lymphoma, somatic, 605027 (3); Gastric cancer, somatic, 613659 (3)
+2	rs13010627	248722	201782343	G	A	CASP10|nonsynonymous|Caspase 10, apoptosis-related cysteine protease|Autoimmune lymphoproliferative syndrome, type II, 603909 (3); Non-Hodgkin lymphoma, somatic, 605027 (3); Gastric cancer, somatic, 613659 (3)
+2	rs17860405	250736	201782452	A	G	CASP10|nonsynonymous|Caspase 10, apoptosis-related cysteine protease|Autoimmune lymphoproliferative syndrome, type II, 603909 (3); Non-Hodgkin lymphoma, somatic, 605027 (3); Gastric cancer, somatic, 613659 (3)
+2	rs13006529	252750	201790704	T	A	CASP10|nonsynonymous|Caspase 10, apoptosis-related cysteine protease|Autoimmune lymphoproliferative syndrome, type II, 603909 (3); Non-Hodgkin lymphoma, somatic, 605027 (3); Gastric cancer, somatic, 613659 (3)
+2	rs17819382	258792	216710127	T	C	XRCC5|synonymous|X-ray repair, complementing defective, repair in Chinese hamster cells-5|
+2	rs207906	260806	216721146	A	G	XRCC5|synonymous|X-ray repair, complementing defective, repair in Chinese hamster cells-5|
+2	rs61752202	262820	216777346	T	C	?|?|?|?
+2	rs13022721	266848	219237239	T	C	RNF25|synonymous|?|?
+2	rs2303562	270876	219237491	A	C	RNF25|synonymous|?|?
+2	rs2303564	272890	219238125	G	A	RNF25|synonymous|?|?
+2	rs41272683	274904	219238906	G	A	?|?|?|?
+2	rs16859170	278932	219241622	T	C	RNF25|synonymous|?|?
+2	rs3731877	280946	219310743	G	C	TTLL4|nonsynonymous|?|?
+2	rs3731876	284974	219311063	G	A	TTLL4|synonymous|?|?
+2	rs586194	291016	219318677	A	G	TTLL4|synonymous|?|?
+2	rs3731909	305114	220087804	C	G	ACCN4|synonymous|Cation channel, amiloride-sensitive, neuronal, 4|
+2	rs34784127	307128	220105316	C	T	?|?|?|?
+2	rs2276643	309142	220108195	A	G	ACCN4|synonymous|Cation channel, amiloride-sensitive, neuronal, 4|
+2	rs6436153	311156	220110909	C	A	ACCN4|nonsynonymous|Cation channel, amiloride-sensitive, neuronal, 4|
+2	rs11689281	313170	220110915	G	T	ACCN4|nonsynonymous|Cation channel, amiloride-sensitive, neuronal, 4|
+2	rs11695248	315184	220110924	T	C	ACCN4|nonsynonymous|Cation channel, amiloride-sensitive, neuronal, 4|
+2	rs3948463	319212	230745104	C	T	SP110|nonsynonymous|SP110 nuclear body protein (interferon-induced protein 41, 30kD; interferon-induced protein 75, 52kD)|Hepatic venoocclusive disease with immunodeficiency, 235550 (3); {Mycobacterium tuberculosis, susceptibility to}, 607948 (3)
+2	rs13018234	321226	230745110	G	A	SP110|synonymous|SP110 nuclear body protein (interferon-induced protein 41, 30kD; interferon-induced protein 75, 52kD)|Hepatic venoocclusive disease with immunodeficiency, 235550 (3); {Mycobacterium tuberculosis, susceptibility to}, 607948 (3)
+2	rs35495464	323240	230745860	A	G	SP110|synonymous|SP110 nuclear body protein (interferon-induced protein 41, 30kD; interferon-induced protein 75, 52kD)|Hepatic venoocclusive disease with immunodeficiency, 235550 (3); {Mycobacterium tuberculosis, susceptibility to}, 607948 (3)
+2	rs1135791	325254	230750520	A	G	SP110|nonsynonymous|SP110 nuclear body protein (interferon-induced protein 41, 30kD; interferon-induced protein 75, 52kD)|Hepatic venoocclusive disease with immunodeficiency, 235550 (3); {Mycobacterium tuberculosis, susceptibility to}, 607948 (3)
+2	rs3948464	327268	230758959	A	G	SP110|nonsynonymous|SP110 nuclear body protein (interferon-induced protein 41, 30kD; interferon-induced protein 75, 52kD)|Hepatic venoocclusive disease with immunodeficiency, 235550 (3); {Mycobacterium tuberculosis, susceptibility to}, 607948 (3)
+2	rs9061	329282	230785354	C	T	SP110|nonsynonymous|SP110 nuclear body protein (interferon-induced protein 41, 30kD; interferon-induced protein 75, 52kD)|Hepatic venoocclusive disease with immunodeficiency, 235550 (3); {Mycobacterium tuberculosis, susceptibility to}, 607948 (3)
+2	rs28930679	331296	230785356	G	A	SP110|nonsynonymous|SP110 nuclear body protein (interferon-induced protein 41, 30kD; interferon-induced protein 75, 52kD)|Hepatic venoocclusive disease with immunodeficiency, 235550 (3); {Mycobacterium tuberculosis, susceptibility to}, 607948 (3)
+2	rs11556887	333310	230785920	G	A	SP110|nonsynonymous|SP110 nuclear body protein (interferon-induced protein 41, 30kD; interferon-induced protein 75, 52kD)|Hepatic venoocclusive disease with immunodeficiency, 235550 (3); {Mycobacterium tuberculosis, susceptibility to}, 607948 (3)
+2	rs41309088	335324	230785927	C	T	?|?|?|?
+2	rs1129411	337338	230785969	A	G	SP110|nonsynonymous|SP110 nuclear body protein (interferon-induced protein 41, 30kD; interferon-induced protein 75, 52kD)|Hepatic venoocclusive disease with immunodeficiency, 235550 (3); {Mycobacterium tuberculosis, susceptibility to}, 607948 (3)
+2	rs2289912	339352	233367797	C	A	?|?|?|?
+2	rs2305138	341366	233369090	G	A	GIGYF2|synonymous|GRB10-interacting GYF protein 2|Parkinson disease 11, 607688 (3)
+2	rs3816334	343380	233417050	A	G	GIGYF2|synonymous|GRB10-interacting GYF protein 2|Parkinson disease 11, 607688 (3)
+2	rs12328151	347408	233420492	G	A	GIGYF2|synonymous|GRB10-interacting GYF protein 2|Parkinson disease 11, 607688 (3)
+2	rs34424361	349422	233429769	G	A	GIGYF2|synonymous|GRB10-interacting GYF protein 2|Parkinson disease 11, 607688 (3)
+2	rs6759892	351436	234266408	T	G	UGT1A6|nonsynonymous|UDP-glycosyltransferase 1 family, polypeptide A6|
+2	rs1105880	353450	234266704	A	G	UGT1A6|synonymous|UDP-glycosyltransferase 1 family, polypeptide A6|
+2	rs2070959	355464	234266930	A	G	UGT1A6|nonsynonymous|UDP-glycosyltransferase 1 family, polypeptide A6|
+2	rs1105879	357478	234266941	A	C	UGT1A6|nonsynonymous|UDP-glycosyltransferase 1 family, polypeptide A6|
+2	rs17863783	359492	234267016	G	T	UGT1A6|synonymous|UDP-glycosyltransferase 1 family, polypeptide A6|
+2	rs34347825	363520	234624381	C	T	?|?|?|?
+2	rs593668	365534	234632278	T	A	SPP2|synonymous|Secreted phosphoprotein-2, 24kD|
+2	rs2270671	375604	237908024	G	A	COL6A3|synonymous|Collagen VI, alpha-3 polypeptide|Bethlem myopathy, 158810 (3); Ullrich congenital muscular dystrophy, 254090 (3)
+2	rs1131296	377618	237908031	G	A	COL6A3|nonsynonymous|Collagen VI, alpha-3 polypeptide|Bethlem myopathy, 158810 (3); Ullrich congenital muscular dystrophy, 254090 (3)
+2	rs10201909	379632	237908108	G	A	COL6A3|synonymous|Collagen VI, alpha-3 polypeptide|Bethlem myopathy, 158810 (3); Ullrich congenital muscular dystrophy, 254090 (3)
+2	rs61729843	381646	237908114	C	T	COL6A3|synonymous|Collagen VI, alpha-3 polypeptide|Bethlem myopathy, 158810 (3); Ullrich congenital muscular dystrophy, 254090 (3)
+2	rs2270669	383660	237908203	C	G	COL6A3|nonsynonymous|Collagen VI, alpha-3 polypeptide|Bethlem myopathy, 158810 (3); Ullrich congenital muscular dystrophy, 254090 (3)
+2	rs11690358	385674	237909520	T	C	COL6A3|nonsynonymous|Collagen VI, alpha-3 polypeptide|Bethlem myopathy, 158810 (3); Ullrich congenital muscular dystrophy, 254090 (3)
+2	rs11683438	387688	237909662	C	T	COL6A3|synonymous|Collagen VI, alpha-3 polypeptide|Bethlem myopathy, 158810 (3); Ullrich congenital muscular dystrophy, 254090 (3)
+2	rs6728818	389702	237909702	A	G	COL6A3|nonsynonymous|Collagen VI, alpha-3 polypeptide|Bethlem myopathy, 158810 (3); Ullrich congenital muscular dystrophy, 254090 (3)
+2	rs36104025	391716	237912473	C	G	COL6A3|nonsynonymous|Collagen VI, alpha-3 polypeptide|Bethlem myopathy, 158810 (3); Ullrich congenital muscular dystrophy, 254090 (3)
+2	rs61729844	393730	237913847	T	C	COL6A3|synonymous|Collagen VI, alpha-3 polypeptide|Bethlem myopathy, 158810 (3); Ullrich congenital muscular dystrophy, 254090 (3)
+2	rs4433949	395744	237914369	C	T	COL6A3|synonymous|Collagen VI, alpha-3 polypeptide|Bethlem myopathy, 158810 (3); Ullrich congenital muscular dystrophy, 254090 (3)
+2	rs34558385	397758	237914456	G	A	COL6A3|synonymous|Collagen VI, alpha-3 polypeptide|Bethlem myopathy, 158810 (3); Ullrich congenital muscular dystrophy, 254090 (3)
+2	rs2291795	399772	237917804	C	T	COL6A3|synonymous|Collagen VI, alpha-3 polypeptide|Bethlem myopathy, 158810 (3); Ullrich congenital muscular dystrophy, 254090 (3)
+2	rs2646258	403800	237917888	G	A	COL6A3|synonymous|Collagen VI, alpha-3 polypeptide|Bethlem myopathy, 158810 (3); Ullrich congenital muscular dystrophy, 254090 (3)
+2	rs34181055	405814	237917891	C	T	COL6A3|synonymous|Collagen VI, alpha-3 polypeptide|Bethlem myopathy, 158810 (3); Ullrich congenital muscular dystrophy, 254090 (3)
+2	rs10084221	407828	237918071	G	A	?|?|?|?
+2	rs2646265	409842	237921752	G	A	COL6A3|synonymous|Collagen VI, alpha-3 polypeptide|Bethlem myopathy, 158810 (3); Ullrich congenital muscular dystrophy, 254090 (3)
+2	rs3790993	411856	237923553	C	G	COL6A3|synonymous|Collagen VI, alpha-3 polypeptide|Bethlem myopathy, 158810 (3); Ullrich congenital muscular dystrophy, 254090 (3)
+2	rs36117715	413870	237926760	G	A	COL6A3|nonsynonymous|Collagen VI, alpha-3 polypeptide|Bethlem myopathy, 158810 (3); Ullrich congenital muscular dystrophy, 254090 (3)
+2	rs2646254	415884	237932456	C	T	COL6A3|synonymous|Collagen VI, alpha-3 polypeptide|Bethlem myopathy, 158810 (3); Ullrich congenital muscular dystrophy, 254090 (3)
+2	rs61729839	419912	237942118	C	T	?|?|?|?
+2	rs2645774	421926	237942312	C	A	COL6A3|synonymous|Collagen VI, alpha-3 polypeptide|Bethlem myopathy, 158810 (3); Ullrich congenital muscular dystrophy, 254090 (3)
+2	rs2646260	423940	237942534	A	G	COL6A3|synonymous|Collagen VI, alpha-3 polypeptide|Bethlem myopathy, 158810 (3); Ullrich congenital muscular dystrophy, 254090 (3)
+2	rs35114079	427968	237945292	G	A	?|?|?|?
+2	rs12622093	429982	237948344	G	A	COL6A3|synonymous|Collagen VI, alpha-3 polypeptide|Bethlem myopathy, 158810 (3); Ullrich congenital muscular dystrophy, 254090 (3)
+2	rs34978064	444080	237954433	G	A	COL6A3|synonymous|Collagen VI, alpha-3 polypeptide|Bethlem myopathy, 158810 (3); Ullrich congenital muscular dystrophy, 254090 (3)
+2	rs61754649	456164	239668750	G	A	HDAC4|synonymous|Histone deacetylase 4|Brachydactyly-mental retardation syndrome, 600430 (3)
+2	rs1063639	458178	239668807	G	A	HDAC4|synonymous|Histone deacetylase 4|Brachydactyly-mental retardation syndrome, 600430 (3)
+2	rs4292120	464220	240714953	C	T	MYEOV2|synonymous|?|?
+2	rs12614632	468248	240714998	A	C	MYEOV2|synonymous|?|?
+2	rs2240539	472276	241684217	G	C	MTERFD2|nonsynonymous|MTERF domain-containing protein 2|
+2	rs2286323	474290	241685470	A	G	MTERFD2|nonsynonymous|MTERF domain-containing protein 2|
+2	rs3796093	476304	241687871	T	C	MTERFD2|nonsynonymous|MTERF domain-containing protein 2|

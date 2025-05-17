@@ -1,0 +1,6 @@
+IndividualID	VariantID	GeneDiseaseInfo
+NA11920	rs3900115	CASP10|synonymous|Caspase 10, apoptosis-related cysteine protease|Autoimmune lymphoproliferative syndrome, type II, 603909 (3); Non-Hodgkin lymphoma, somatic, 605027 (3); Gastric cancer, somatic, 613659 (3)
+NA07357	rs3900115	CASP10|synonymous|Caspase 10, apoptosis-related cysteine protease|Autoimmune lymphoproliferative syndrome, type II, 603909 (3); Non-Hodgkin lymphoma, somatic, 605027 (3); Gastric cancer, somatic, 613659 (3)
+NA11831	rs3900115	CASP10|synonymous|Caspase 10, apoptosis-related cysteine protease|Autoimmune lymphoproliferative syndrome, type II, 603909 (3); Non-Hodgkin lymphoma, somatic, 605027 (3); Gastric cancer, somatic, 613659 (3)
+NA11830	rs3900115	CASP10|synonymous|Caspase 10, apoptosis-related cysteine protease|Autoimmune lymphoproliferative syndrome, type II, 603909 (3); Non-Hodgkin lymphoma, somatic, 605027 (3); Gastric cancer, somatic, 613659 (3)
+NA11832	rs3900115	CASP10|synonymous|Caspase 10, apoptosis-related cysteine protease|Autoimmune lymphoproliferative syndrome, type II, 603909 (3); Non-Hodgkin lymphoma, somatic, 605027 (3); Gastric cancer, somatic, 613659 (3)
