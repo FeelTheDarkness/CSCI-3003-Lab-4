@@ -76,7 +76,7 @@ def find_extreme_frequencies(snp_id, frequencies):
     
     return max_snps, min_snps
 
-def write_output(filename, chrom, snp_id, slim_pos, ref_snp, alt_snp, frequencies, gene_info, disease_info):
+def write_frequency_output(filename, chrom, snp_id, slim_pos, ref_snp, alt_snp, frequencies, disease_info):
     """Write SNP information with frequencies to output file"""
     with open(filename, 'w') as f:
         # Write header
@@ -90,7 +90,7 @@ def mean_frequency(frequencies):
     """Calculate mean of SNP frequencies (optional)"""
     return sum(frequencies) / len(frequencies)
 
-def find_lymphoma_variants(headers, sequences, snp_id, slim_pos, disease_info):
+def find_lymphoma_variants(headers, sequences, snp_id, slim_pos, alt_snp, disease_info):
     """Find variants associated with Non-Hodgkin lymphoma"""
     with open('lymphoma_variants.txt', 'w') as f:
         f.write("IndividualID\tVariantID\tGeneDiseaseInfo\n")
@@ -105,16 +105,18 @@ def find_lymphoma_variants(headers, sequences, snp_id, slim_pos, disease_info):
                         line = f"{headers[j]}\t{snp_id[i]}\t{disease_info[i]}\n"
                         f.write(line)
 
-def find_novel_variants(headers, sequences, ref_sequence):
+def find_novel_variants(headers, sequences):
     """Discover novel variants not in the VCF file"""
+    # Assume first sequence is the reference
+    ref_sequence = sequences[0]
     variant_counts = {}  # {position: {'ref': base, 'alts': {base: count}}}
     
     # Initialize with reference sequence
     for i in range(len(ref_sequence)):
         variant_counts[i+1] = {'ref': ref_sequence[i], 'alts': {}}
     
-    # Scan all individual sequences
-    for seq in sequences:
+    # Scan all individual sequences (excluding reference)
+    for seq in sequences[1:]:
         for i in range(len(seq)):
             pos = i + 1  # 1-based position
             if seq[i] != variant_counts[pos]['ref']:
@@ -123,9 +125,9 @@ def find_novel_variants(headers, sequences, ref_sequence):
     
     # Filter for positions with variants and calculate frequencies
     novel_variants = []
-    num_individuals = len(sequences)
+    num_individuals = len(sequences) - 1  # exclude reference
     
-    for pos in variant_counts:
+    for pos in sorted(variant_counts.keys()):
         if variant_counts[pos]['alts']:
             ref = variant_counts[pos]['ref']
             for alt in variant_counts[pos]['alts']:
@@ -142,32 +144,33 @@ def find_novel_variants(headers, sequences, ref_sequence):
     return novel_variants
 
 def main():
-    # Read input files
+    # Part I: Analysis of known SNPs
+    print("Reading input files...")
     headers, sequences = read_fasta('slim_chr2_seq.fasta')
     chrom, snp_id, slim_pos, ref_snp, alt_snp, gene_info, disease_info = read_vcf('slim_chr2_SNPS.vcf')
     
-    # Calculate frequencies
+    print("Calculating SNP frequencies...")
     frequencies = calculate_frequencies(sequences, slim_pos, ref_snp, alt_snp)
     
-    # Find extreme frequencies
     max_snps, min_snps = find_extreme_frequencies(snp_id, frequencies)
-    print("SNPs with highest frequency:", ", ".join(max_snps))
+    print("\nSNPs with highest frequency:", ", ".join(max_snps))
     print("SNPs with lowest frequency:", ", ".join(min_snps))
-    
-    # Write output file
-    write_output('slim_chr2_SNPs_withfrequencies.vcf', chrom, snp_id, slim_pos, 
-                ref_snp, alt_snp, frequencies, gene_info, disease_info)
-    
-    # Optional: Calculate mean frequency
     print(f"Mean SNP frequency: {mean_frequency(frequencies):.4f}")
     
-    # Part II: Find Non-Hodgkin lymphoma variants
-    find_lymphoma_variants(headers, sequences, snp_id, slim_pos, disease_info)
+    print("\nWriting SNP frequency output file...")
+    write_frequency_output('slim_chr2_SNPs_withfrequencies.vcf', chrom, snp_id, slim_pos, 
+                        ref_snp, alt_snp, frequencies, disease_info)
     
-    # Part III: Find novel variants
-    # Assuming the first sequence is the reference sequence
-    ref_sequence = sequences[0]
-    novel_variants = find_novel_variants(headers[1:], sequences[1:], ref_sequence)
+    # Part II: Characterizing SNPs (Non-Hodgkin lymphoma)
+    print("\nFinding Non-Hodgkin lymphoma variants...")
+    find_lymphoma_variants(headers, sequences, snp_id, slim_pos, alt_snp, disease_info)
+    
+    # Part III: Discovering novel variants
+    print("\nDiscovering novel variants...")
+    novel_variants = find_novel_variants(headers, sequences)
+    print(f"Found {len(novel_variants)} novel variants")
+    
+    print("\nLab 4 analysis complete!")
 
 if __name__ == "__main__":
     main()
